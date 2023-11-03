@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+  font-family: 'Sofia Sans', sans-serif;
+  background: #181818;
+  color: #fff;
+}
+
+/* .logo{
+  padding-left: 50px;
+}
+
+.logo img{
+  height: 50px;
+  width: 50px;
+} */
+
+.nav-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 50px 0 20px 550px;
+}
+
+.navigation a{
+  padding-left: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation a:hover{
+  color: #39FF14;
+}
+
+.information img{
+  width: 20px;
+  height: 20px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 0 200px 200px;
+}
+
+.hire a:hover{
+  transition: all 1s ease-in;
+}
+
+.hire{
+  height: 50px;
+  width: 200px;
+  background: #39FF14;
+  border: 2px solid transparent;
+  border-radius: 50px;
+}
+
+.hire a{
+  color: #000;
+  background: #39FF14;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.main-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px 300px;
+}
+
+.main-content .main-image img{
+  width: 400px;
+  height: 400px;
+}
+
+/* .main-content .information .text{
+  display: inline-block;
+} */
+
+.text{
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s infinite, cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing{
+  from {
+    width: 0
+  }
+}
+
+
+
+
